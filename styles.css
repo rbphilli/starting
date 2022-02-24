@@ -1,0 +1,46 @@
+h2{
+    margin:10px;
+}
+.heading{
+    margin:100px; /*set the margin to 20px on each side of the box*/
+    font-size: 20px;
+    border:1px solid gray;
+}
+
+.boxes{
+    border:1px solid black; /* makes a solid border of 1px*/
+    display:inline-block; /* lines the bordered blocks up*/
+    margin: 20px;
+    padding: 10px 150px;
+    text-align: center;
+}
+
+/* These are the box colors for the Color section*/
+.LO{
+    background-color: #E27D60;
+}
+
+.LG{
+    background-color: #85DCB0;
+}
+
+.PC{
+    background-color: #E8A87C;
+}
+
+.LP{
+    background-color: #C38D9E;
+}
+
+.DG{
+    background-color: #41B3A3;
+}
+.TRTS{
+    font-family: 'Times New Roman', Times, serif;
+}
+.AHSS{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.LCCNM{
+    font-family: "Lucida Console", "Courier New", monospace;
+}
