@@ -1,23 +1,77 @@
-h2{
-    margin:10px;
+body{
+    margin: 0 10%;
 }
-.heading{
-    margin:100px; /*set the margin to 20px on each side of the box*/
-    font-size: 20px;
-    border:1px solid gray;
+h2{
+    font-family: Arial;
+}
+p{
+    font-family: "Lucida Console";
 }
 
-.boxes{
-    border:1px solid black; /* makes a solid border of 1px*/
-    display:inline-block; /* lines the bordered blocks up*/
-    margin: 20px;
-    padding: 10px 150px;
+/*.heading{
+    margin:10px; 
+    font-size: 20px;
+    border:1px solid gray;
+    padding: auto;
+} */ /*changing this to container*/
+
+.container{
+    border: 2px solid gray;
+    padding: 10px;
+    margin: 10px auto;
+}
+.color-container, .font-container, .text-container{
+    width:100%;
+}
+
+/*.boxes{
+    border:1px solid black;
+    display:inline-block; 
+    margin:10px;
+    padding: 50px;
+    position: relative;
+    
+}*/ /*changing this to color-panel*/
+
+.color-panel{
+    display:inline-block;
+    width: 32%;
     text-align: center;
+    margin: 20px auto;
+    min-height: 100%;
+}
+
+.textBoxes{
+    width:45%;
+    display: inline-block;
+}
+.headerText{
+    text-align: left;
+}
+.textBoxes h2{
+    text-align: left;
+}
+.font-label{
+    font-size: 20px;
+    text-decoration: underline;
+}
+.font-boxes h1{
+    font-weight: 700;
+    font-size: 32px;
+    font-family: "Lucida Console" ;
+}
+.font-boxes h2{
+    font-weight: 500;
+    font-size: 18px;
+}
+.font-boxes p{
+    font-weight: 400;
+    font-size: 14px;
 }
 
 /* These are the box colors for the Color section*/
 .LO{
-    background-color: #E27D60;
+    background-color: #E27D60;  
 }
 
 .LG{
@@ -43,4 +97,14 @@ h2{
 }
 .LCCNM{
     font-family: "Lucida Console", "Courier New", monospace;
+}
+.bold{
+    font-weight:bold;
+}
+.italic{
+    font-style: italic;
+}
+
+.regular{
+    font-style: normal;
 }

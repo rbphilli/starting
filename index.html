@@ -8,64 +8,95 @@
 <!-- This is the body fo the system-->
 
 <body>
+    <h1>My Website Style Guide</h1>
     <!-- this DIV is the color portion-->
-    <div class="heading">
+    <div class="container">
         <h2>Colors</h2>
-        <div class="boxes LO">
-            <h4>Light Orange</h4>
-            <h4>#E27D60</h4>
+        <div class="color-container">
+            <div class="color-panel LO">
+                <h4>Light Orange</h4>
+                <h4>#E27D60</h4>
 
-        </div>
-        <div class="boxes LG">
-            <h4>Light Green</h4>
-            <h4>#85DCB0</h4>
+            </div>
+            <div class="color-panel LG">
+                <h4>Light Green</h4>
+                <h4>#85DCB0</h4>
 
-        </div>
-        <div class="boxes PC">
-            <h4>Peach</h4>
-            <h4>#E8A87C</h4>
+            </div>
+            <div class="color-panel PC">
+                <h4>Peach</h4>
+                <h4>#E8A87C</h4>
 
-        </div>
-        <div class="boxes LP">
-            <h4>Light Purple</h4>
-            <h4>#C38D9E</h4>
-        </div>
-        <div class="boxes DG">
-            <h4>Dark Green</h4>
-            <h4>#41B3A#</h4>
+            </div>
+            <div class="color-panel LP">
+                <h4>Light Purple</h4>
+                <h4>#C38D9E</h4>
+            </div>
+            <div class="color-panel DG">
+                <h4>Dark Green</h4>
+                <h4>#41B3A#</h4>
+            </div>
         </div>
     </div>
 
     <!-- this Div is the fonts -->
-    <div class="heading">
-        <h2>Fonts</h2>
-
+    <div class="container">
+        <h2 class="headerText">Fonts</h2>
+        <!--Times New Roman, Times, serif -->
+        <div class="font-container">
+            <div class="textBoxes TRTS">
+                <p class="font-label TRTS">Times New Roman</p>
+                <p class="regular">The quick brown fox jumps over the lazy dog.</p>
+                <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+                <p class="italic">The quick brown fox jumps over the lazy dog.</p>  
+            </div>
+            <!-- Arial, Helvetica, sans-serif -->
+            <div class="textBoxes AHSS">
+                <p class="font-label">Arial</p>
+                <p class="regular">The quick brown fox jumps over the lazy dog.</p>
+                <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+                <p class="italic">The quick brown fox jumps over the lazy dog.</p>
+            </div>
+            <!-- Lucida Console, Courier New, monospace-->
+            <div class="textBoxes LCCNM">
+                <p class="font-label">Lucida Console</p>
+                <p class="regular">The quick brown fox jumps over the lazy dog.</p>
+                <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+                <p class="italic">The quick brown fox jumps over the lazy dog.</p>
+            </div>
+        </div>
 
     </div>
     <!-- This Div is the Text styles-->
-    <div class="heading">
-        <h2>Text Styles</h2>
-        <!--Times New Roman, Times, serif -->
-        <div class="boxes TRTS">
-            <h4>Times New Roman</h4>
-            <p>The quick brown fox jumps over the lazy dog.</p>
-            <p class="bold">The quick brown fox jumps over the lazy dog.</p>
-            <p class="italic">The quick brown fox jumps over the lazy dog.</p>
+    <div class="container">
+        <h2 class="headerText">Text Styles</h2>
+        <div class="text-container">
+            <div class="font-boxes">
+                <H1> H1: Main page heading</H1>
+                <ul>
+                    <li>Font-weight: 700 (bold)</li>
+                    <li>Font-size: 26px</li>
+                    <li>Font-family: 'Times New Roman'</li>
+                </ul>
+            </div>
+            <div class="font-boxes">
+                <h2>H2: Subheading</h2>
+                <ul>
+                    <li>Font-weight: 500</li>
+                    <li>Font-size: 18px</li>
+                    <li>Font-family: Arial</li>
+                </ul>
+            </div>
+            <div class="font-boxes">
+               <p>P: Paragraph text</p>
+               <ul>
+                <li>Font-weight: 400</li>
+                <li>Font-size: 14px</li>
+                <li>Font-family: Arial</li>
+                </ul>
+
+            </div>
             
-        </div>
-        <!-- Arial, Helvetica, sans-serif -->
-        <div class="boxes AHSS">
-            <h4>Arial</h4>
-            <p>The quick brown fox jumps over the lazy dog.</p>
-            <p class="bold">The quick brown fox jumps over the lazy dog.</p>
-            <p class="italic">The quick brown fox jumps over the lazy dog.</p>
-        </div>
-        <!-- Lucida Console, Courier New, monospace-->
-        <div class=" boxes LCCNM">
-            <h4>Lucida Console</h4>
-            <p>The quick brown fox jumps over the lazy dog.</p>
-            <p class="bold">The quick brown fox jumps over the lazy dog.</p>
-            <p class="italic">The quick brown fox jumps over the lazy dog.</p>
         </div>
     </div>
 `
